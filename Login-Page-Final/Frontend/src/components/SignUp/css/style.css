@@ -1,0 +1,100 @@
+body {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('../background.jpg') no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.clear {
+    clear: both;
+}
+
+/* .form-check {
+    padding-left: 40px !important;
+} */
+
+.self-center {
+    align-self: center !important;
+}
+
+.self-center label {
+    display: block;
+}
+
+.tab-content {
+    border: 2px solid green;
+    border-top: 0px;
+    padding: 0px 15px 20px 15px;
+    background: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.tab-content label {
+    font-weight: 600;
+}
+
+#form-tabs h1 {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 10px grey;
+    font-size: 60px;
+    padding-bottom: 40px;
+}
+
+.nav-tabs .nav-link {
+    background: #fff;
+    border-radius: 0px !important;
+    color: #000 !important;
+    font-size: 15px !important;
+    border: 2px solid green !important;
+    text-align: center;
+}
+
+.nav-link.active {
+    background-color: skyblue !important;
+    color: #fff !important;
+}
+
+#form-tabs .btn-primary {
+    width: 100%;
+}
+.text-right{
+    text-align: right;
+}
+
+.radio-enable{
+    align-self: center;
+    padding-left: 40px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    #form-tabs h1 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    body {
+        height: 100%;
+    }
+}
+
+
+#main-bx{border: 2px solid #83b01c;border-top: 0px;padding: 20px;background: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+    #main .row{justify-content:center;}
+    #main img{width:100%;}
+    .lgn{display: block !important;margin: 0px auto;}
+    .below-links{display: flex;justify-content: space-between;flex-direction: row;}
+    .below-links a{color: #000;font-weight: 600;}
+    .btn-info{color: #fff !important;}
+    label{font-weight:600;}
+    body{height: 100vh;display: flex;align-items: center;justify-content: center;background:url('../background.jpg') no-repeat;background-size:cover;background-position:center center;}
+.clear{clear:both;}
+input::placeholder {
+    font-size:14px;
+  }

@@ -1,0 +1,40 @@
+.inputContainer {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(
+    rgba(3, 238, 66, 0.988),
+    rgba(0, 200, 255, 0.715)
+  );
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputContainer h1 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.errorMessage {
+  font-size: 1rem;
+  font-weight: 500;
+  color: red;
+  margin-bottom: 0;
+  margin-top: 0.5rem;
+}
+.inputContainer p a {
+  color: rgb(56, 43, 233);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.inputContainer button {
+  margin-top: 1rem;
+}
+
+/* You can add more styles as needed */

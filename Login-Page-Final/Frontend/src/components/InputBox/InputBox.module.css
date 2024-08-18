@@ -1,0 +1,26 @@
+.inputBox {
+  border-radius: 2rem;
+  border: 2px solid white;
+  font-size: 0.9rem;
+  padding: 0.3rem;
+  height: 1.2rem;
+  text-align: center;
+}
+
+.inputBox:focus-visible {
+  outline: none;
+}
+
+.inputBox:focus {
+  border: 2px solid rgb(138, 238, 14);
+}
+
+.inputBox:focus::placeholder {
+  color: transparent;
+}
+
+.label {
+  margin: 1rem 0 0.7rem 0;
+  font-size: 1.2rem;
+  font-weight: normal;
+}
